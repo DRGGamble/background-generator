@@ -1,0 +1,90 @@
+/*Style for Random Gradient Generator*/
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 1s ease;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+        
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.gradientinfo {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-family: monospace;
+    word-break: break-all;
+}
+
+.message {
+    margin: 1.5rem 0;
+    margin-bottom: 1.5rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-family: monospace;
+    word-break: break-all;
+}
+
+.colourpreview {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.colourbox {
+    flex: 1;
+}
+    
+button {
+    background: #6e8efb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(110, 142, 251, 0.4);
+}
+        
+button:hover {
+    background: #5a7ce7;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+        
+button:active {
+    transform: translateY(0);
+}
