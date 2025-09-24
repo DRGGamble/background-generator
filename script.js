@@ -12,7 +12,12 @@
 // ****************************************************************************
 // Variable declarations
 // ****************************************************************************
-// 
+//
+// Example of including lodash in my script.
+// const _ = require('lodash');
+// const array = [1, 2, 3, 4, 5, 6, 7, 8]
+// console.log('answer', _.without(array, 3));
+//
 const css = document.querySelector("h3");
 const [colour1, colour2] = document.querySelectorAll(".colour");
 const body = document.querySelector(".gradient");
